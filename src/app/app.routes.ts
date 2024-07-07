@@ -4,5 +4,5 @@ import { AppComponent } from './app.component';
 
 export const routes: Routes = [
     { path: '', component: AppComponent },
-    { path: 'cv', component: CvComponent },
+    { path: ':id', component: CvComponent },
 ];

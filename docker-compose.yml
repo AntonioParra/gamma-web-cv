@@ -1,0 +1,13 @@
+name: cv
+
+services:
+  web:
+    container_name: web-cv
+    build:
+      dockerfile: Dockerfile
+    networks:
+      - gamma-network
+
+networks:
+  gamma-network:
+    external: true
