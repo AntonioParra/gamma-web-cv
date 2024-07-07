@@ -1,0 +1,147 @@
+/* You can add global styles to this file, and also import other style files */
+
+@import url('./styles-reset.scss');
+
+:root {
+    --color: white;
+    --primary: #2cc9ff;
+    --secondary: #ffb272;
+    --tertiary: #b6eaff;
+
+    --max-width: 800px;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+::-webkit-scrollbar-track {
+    background: #212142; 
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: var(--primary); 
+    border-radius: 3px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: color-mix(in srgb, var(--primary) 80%, black);
+}
+
+@font-face {
+    font-family: 'Title';
+    src: url('/fonts/KodeMono.ttf') format('woff');
+}
+@font-face {
+    font-family: 'Header';
+    src: url('/fonts/Manrope.ttf') format('woff');
+}
+@font-face {
+    font-family: 'Text';
+    src: url('/fonts/OpenSans.ttf') format('woff');
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+
+    background: #020617;
+    background-image: radial-gradient(ellipse 80% 80% at 50% -20%,rgba(0,153,255,.25),hsla(0,0%,100%,0));
+    background-repeat: no-repeat;
+
+    // display: flex;
+    // flex-direction: column;
+    // align-items: center;
+
+    color: var(--color);
+    font-family: 'Text', sans-serif;
+}
+
+.mainSection {
+    padding: 120px 20px;
+    padding-bottom: 0px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    color: var(--primary);
+}
+
+.title {
+    font-family: 'Title', monospace;
+}
+.header {
+    font-family: 'Header', sans-serif;
+}
+.title {
+    font-size: 30px;
+}
+.spacer {
+    padding: 0 1rem;
+}
+.item {
+    display: flex;
+    flex-direction: column;
+    margin-top: 24px
+}
+.sectionHeader {
+    display: flex;
+    flex-direction: row;
+}
+.iconCell {
+    width: 20px;
+    min-width: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.titleCell {
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    margin-left: 8px;
+}
+.titleCell .title1 {
+    color: var(--primary)
+}
+.titleCell .title2 {
+    color: var(--secondary)
+}
+.infoCell {
+    font-size: 14px;
+    line-height: 24px;
+    margin-left: 28px;
+}
+
+.svgLink {
+    width: 28px;
+
+    &.withStroke svg path {
+        stroke: var(--color);
+    }
+
+    &.withStroke:hover {
+        svg path {
+            stroke: var(--primary);
+        }
+    }
+
+    &.withFill svg path {
+        fill: var(--color);
+    }
+
+    &.withFill:hover {
+        svg path {
+            fill: var(--primary);
+        }
+    }
+}

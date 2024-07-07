@@ -1,0 +1,28 @@
+.infoCell {
+    margin-left: 0;
+}
+
+.subitems {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+}
+.subitem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 12px;
+    font-size: 14px;
+    width: 16.66%
+}
+@media(width < 720px) {
+    .subitem {
+        margin-bottom: 12px;
+        width: 33.33%;
+    }
+}
+.subitem span {
+    padding-top: 4px;
+}

@@ -1,0 +1,23 @@
+<section id="experience" class="mainSection">
+    <h2 class="title">Experiencia</h2>
+    <ul>
+    @for (item of data; track item) {
+        <li class="item">
+            <div class="sectionHeader">
+                <div class="iconCell">
+                    <img src="/icons/calendar.svg" width="20" loading="lazy" alt={item.position}/>
+                </div>
+                <div class="titleCell header">
+                    <h3 class="title1">{{ item?.position }}</h3><span class="spacer">-</span><h3 class="title2">{{ item?.company }}</h3>
+                </div>
+            </div>
+            <div class="infoCell">
+                <div>
+                    <span class="date">{{ item?.since }}</span><span class="spacer">-</span><span class="date">{{ item?.until }}</span>
+                </div>
+                <div>{{ item.description }}</div>
+            </div>
+        </li>
+    }
+    </ul>
+</section>

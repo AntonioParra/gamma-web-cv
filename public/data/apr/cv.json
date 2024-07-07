@@ -1,0 +1,193 @@
+{
+    "title": "Antonio Parra Ruiz",
+    "header": {
+        "title": "APR",
+        "links": [{
+            "section": "middle",
+            "text": "Experiencia",
+            "href": "#experience"
+        }, {
+            "section": "middle",
+            "text": "Tecnologías",
+            "href": "#expertise"
+        }, {
+            "section": "middle",
+            "text": "Formación",
+            "href": "#education"
+        }, {
+            "section": "middle",
+            "text": "Certificaciones",
+            "href": "#certifications"
+        }, {
+            "section": "end",
+            "text": "Tecnologías",
+            "img": "/icons/pdf.svg",
+            "href": "/pdfs/Antonio Parra Ruiz - CV.pdf"
+        }, {
+            "section": "end",
+            "text": "LinkedId",
+            "img": "/icons/linkedin.svg",
+            "href": "https://www.linkedin.com/in/antonio-parra-ruiz/"
+        }]
+    },
+    "personal": {
+        "fullname": "Antonio Parra Ruiz",
+        "position": "Desarrollador en el mundo SAP",
+        "text1": "Programando desde 2008",
+        "text2": "Especialista en desarrollos frontend",
+        "text3": "Buscando la belleza en el código",
+        "text4": "Enseño programación a estudiantes de bachillerato",
+        "pic": "pic.png"
+    },
+    "experience": [{
+        "company": "Stratesys",
+        "position": "Project Team Leader",
+        "since": "Enero 2023",
+        "until": "actualidad",
+        "description": "Gestión de proyectos con Grupo QuirónSalud y TMB. Desarrollos y mantenimientos principalmente SAPUI5, ABAP OData, Angular e Ionic para multitud de clientes, señalando especialmente a Elecnor (SFSF), Bardahl (SAP MM) y GAM (SAP PM). Formación de perfiles junior."
+    }, {
+        "company": "Stratesys",
+        "position": "Senior Web Developer",
+        "since": "Mayo 2019",
+        "until": "Enero 2023",
+        "description": "Desarrollos y mantenimientos principalmente SAPUI5, ABAP OData, Angular e Ionic para multitud de clientes, señalando especialmente Grupo QuirónSalud (SAP HCM + SFSF), GAM (SAP PM), Acciona (SAP FI), Telefónica (SAP FI), Grupo Colonial (SAP SD), Vithas (SAP MM). Formación de perfiles junior."
+    }, {
+        "company": "ViewNext",
+        "position": "Web Developer",
+        "since": "Mayo 2019",
+        "until": "January 2017",
+        "description": "Desarrollos y mantenimientos SAPUI5 y ABAP OData para crear herramientas corporativas para Ferrovial Cintra (SAP HCM), Ferrovial Agroman (SAP FI, SD, MM) y Ferrovial Servicios (SAP PM). Formación de perfiles junior."
+    }, {
+        "company": "Tecnocom",
+        "position": "Junior Web Developer",
+        "since": "July 2015",
+        "until": "January 2017",
+        "description": "Primeros pasos en el mundo  SAP. Principalmente desarrollos con SAPUI5 para crear herramientas corporativas para Heineken (SAP SD) y Persán (SAP HCM y SAP PP)."
+    }],
+    "expertise": [{
+        "category": "Mundo SAP",
+        "items": [{
+            "name": "SAPUI5",
+            "img": "/imgs/sapui5.png",
+            "imgWidth": "62"
+        }, {
+            "name": "SAP BTP",
+            "img": "/imgs/btp.png",
+            "imgWidth": "62"
+        }, {
+            "name": "ABAP",
+            "img": "/imgs/abap.png",
+            "imgWidth": "62"
+        }, {
+            "name": "OData ABAP",
+            "img": "/imgs/odata.png",
+            "imgWidth": "62"
+        }, {
+            "name": "SuccessFactors",
+            "img": "/imgs/sfsf.png",
+            "imgWidth": "62"
+        }, {
+            "name": "CAP",
+            "img": "/imgs/cap.png",
+            "imgWidth": "62"
+        }]
+    }, {
+        "category": "Desarrollo Frontend",
+        "items": [{
+            "name": "HTML",
+            "img": "/imgs/html.svg"
+        }, {
+            "name": "JavaScript",
+            "img": "/imgs/javascript.svg"
+        }, {
+            "name": "CSS",
+            "img": "/imgs/css.svg"
+        }, {
+            "name": "SASS",
+            "img": "/imgs/sass.svg"
+        }, {
+            "name": "Angular",
+            "img": "/imgs/angular.svg"
+        }, {
+            "name": "Ionic",
+            "img": "/imgs/ionic.svg"
+        }]
+    }, {
+        "category": "Desarrollo Backend",
+        "items": [{
+            "name": "NodeJS",
+            "img": "/imgs/nodejs.svg"
+        }, {
+            "name": "ExpressJS",
+            "img": "/imgs/express.svg"
+        }, {
+            "name": "MySQL",
+            "img": "/imgs/mysql.svg"
+        }, {
+            "name": "SQLite",
+            "img": "/imgs/sqlite.svg"
+        }, {
+            "name": "Apache",
+            "img": "/imgs/apache.svg"
+        }, {
+            "name": "Nginx",
+            "img": "/imgs/nginx.svg"
+        }]
+    }, {
+        "category": "Otros lenguajes y Herramientas",
+        "items": [{
+            "name": "Java",
+            "img": "/imgs/java.svg"
+        }, {
+            "name": "TypeScript",
+            "img": "/imgs/typescript.svg"
+        }, {
+            "name": "GIT",
+            "img": "/imgs/git.svg"
+        }, {
+            "name": "Terminal",
+            "img": "/imgs/terminal.svg"
+        }, {
+            "name": "Android",
+            "img": "/imgs/android.svg"
+        }, {
+            "name": "Docker",
+            "img": "/imgs/docker.svg"
+        }]
+    }, {
+        "category": "Otros intereses",
+        "items": [{
+            "name": "Python",
+            "img": "/imgs/python.svg"
+        }, {
+            "name": "Astro",
+            "img": "/imgs/astro.svg"
+        }, {
+            "name": "React",
+            "img": "/imgs/react.svg"
+        }, {
+            "name": "Godot",
+            "img": "/imgs/godot.svg"
+        }, {
+            "name": "OpenAI",
+            "img": "/imgs/openai.svg"
+        }, {
+            "name": "Linux",
+            "img": "/imgs/linux.svg"
+        }]
+    }],
+    "certifications": [{
+        "title": "SAP BTP Extensions with SAP Cloud Application Programming Model",
+        "date": "Noviembre 2023"
+    }, {
+        "title": "First Certificate in English (Council of Europe Level B2)",
+        "date": "Abril 2015"
+    }],
+    "education": [{
+        "title": "Técnico Superior en Desarrollo de Aplicaciones Multiplataforma",
+        "school": "IES Ramón del Valle-Inclán",
+        "since": "Septiembre 2013",
+        "until": "Junio 2015",
+        "grade": "Matrícula de Honor (9.15/10)"
+    }]
+}

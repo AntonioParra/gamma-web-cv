@@ -1,0 +1,127 @@
+{
+    "title": "Juan José Saborido Barranco",
+    "header": {
+        "title": "JJSB",
+        "links": [{
+            "section": "middle",
+            "text": "Experiencia",
+            "href": "#experience"
+        }, {
+            "section": "middle",
+            "text": "Tecnologías",
+            "href": "#expertise"
+        }, {
+            "section": "middle",
+            "text": "Formación",
+            "href": "#education"
+        }, {
+            "section": "middle",
+            "text": "Certificaciones",
+            "href": "#certifications"
+        }, {
+            "section": "end",
+            "text": "Tecnologías",
+            "img": "/icons/pdf.svg",
+            "href": "/pdfs/CV - Saborido Barranco Juan José - Desarrollo Web.pdf"
+        }, {
+            "section": "end",
+            "text": "LinkedId",
+            "img": "/icons/linkedin.svg",
+            "href": "https://www.linkedin.com/in/juan-jos%C3%A9-saborido-barranco-49556b195/"
+        }]
+    },
+    "personal": {
+        "fullname": "Juan José Saborido Barranco",
+        "position": "Desarrollador junior full stack",
+        "text1": "Programando desde 2021",
+        "text2": "Persona muy curiosa y activa",
+        "text3": "Con entusiasmo por la programación",
+        "text4": "Ansia de conocimiento",
+        "pic": "/imgs/pic.png"
+    },
+    "experience": [{
+        "company": "Burst your ideas",
+        "position": "Desarrollador full stack",
+        "since": "Marzo 2022",
+        "until": "actualidad",
+        "description": "Gestión de proyectos. Desarrollos y mantenimientos principalmente en React, Ruby, PostgreSQL y Nginx."
+    }],
+    "expertise": [{
+        "category": "Desarrollo Frontend",
+        "items": [{
+            "name": "HTML",
+            "img": "/imgs/html.svg"
+        }, {
+            "name": "JavaScript",
+            "img": "/imgs/javascript.svg"
+        }, {
+            "name": "CSS",
+            "img": "/imgs/css.svg"
+        }, {
+            "name": "React",
+            "img": "/imgs/react.svg"
+        }]
+    }, {
+        "category": "Desarrollo Backend",
+        "items": [{
+            "name": "Ruby",
+            "img": "/imgs/ruby.svg"
+        }, {
+            "name": "PHP",
+            "img": "/imgs/php.svg"
+        }, {
+            "name": "MySQL",
+            "img": "/imgs/mysql.svg"
+        }, {
+            "name": "PostgreSQL",
+            "img": "/imgs/postgresql.svg"
+        }, {
+            "name": "Apache",
+            "img": "/imgs/apache.svg"
+        }, {
+            "name": "Nginx",
+            "img": "/imgs/nginx.svg"
+        }, {
+            "name": "Puma",
+            "img": "/imgs/puma.svg"
+        }]
+    }, {
+        "category": "Otros lenguajes y Herramientas",
+        "items": [{
+            "name": "Java",
+            "img": "/imgs/java.svg"
+        }, {
+            "name": "C#",
+            "img": "/imgs/csharp.svg"
+        }, {
+            "name": "Python",
+            "img": "/imgs/python.svg"
+        }, {
+            "name": "GIT",
+            "img": "/imgs/git.svg"
+        }, {
+            "name": "Terminal",
+            "img": "/imgs/terminal.svg"
+        }]
+    }, {
+        "category": "Otros intereses",
+        "items": [{
+            "name": "OpenAI",
+            "img": "/imgs/openai.svg"
+        }, {
+            "name": "Linux",
+            "img": "/imgs/linux.svg"
+        }]
+    }],
+    "certifications": [{
+        "title": "First Certificate in English (Cambridge Level B2)",
+        "date": "Julio 2019"
+    }],
+    "education": [{
+        "title": "Técnico Superior en Desarrollo de Aplicaciones Web",
+        "school": "Ilerna",
+        "since": "Septiembre 2022",
+        "until": "Junio 2024",
+        "grade": "Nota media del FP 9 sobre 10"
+    }]
+}

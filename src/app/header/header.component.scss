@@ -1,0 +1,41 @@
+header {
+    position: fixed;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    height: 64px;
+    width: 100%;
+
+    background: color-mix(in srgb, var(--primary) 5%, transparent);
+    backdrop-filter: blur(8px);
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    height: 100%;
+    width: 100%;
+
+    padding: 0 20px;
+}
+.title {
+    font-size: 40px;
+    font-weight: 700;
+    color: var(--primary);
+}
+.links {
+    display: flex;
+    flex-direction: row;
+}
+@media(width < 720px) {
+   .middle.links  {
+        display: none;
+    }
+}
+.link {
+    margin: 0 0.5rem;
+}

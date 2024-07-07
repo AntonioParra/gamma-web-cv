@@ -1,0 +1,13 @@
+
+<app-header [data]="cvData?.header"></app-header>
+
+<div class="cvContainer">
+    <main>
+        <app-personal [data]="cvData?.personal"></app-personal>
+        <app-experience [data]="cvData?.experience"></app-experience>
+        <app-expertise [data]="cvData?.expertise"></app-expertise>
+        <app-education [data]="cvData?.education"></app-education>
+        <app-certifications [data]="cvData?.certifications"></app-certifications>
+        <div class="bottomSpacer"></div>
+    </main>
+</div>

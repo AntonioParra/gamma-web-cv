@@ -1,0 +1,23 @@
+<section>
+    <div class="container">
+        <div class="textsContainer">
+            <div class="nameContainer">
+                <span class="fullname title">{{ data?.fullname }}</span>
+                <span class="position header">{{ data?.position }}</span>
+            </div>
+            <div class="descriptionContainer">
+                <span class="slogan">{{ data?.text1 }}</span>
+                <span class="slogan">{{ data?.text2 }}</span>
+                <span class="slogan">{{ data?.text3 }}</span>
+                <span class="slogan">{{ data?.text4 }}</span>
+            </div>
+        </div>
+        <div class="imgContainer">
+            <img [src]="data?.pic" [alt]="data?.fullname" width="200" height="200"/>
+        </div>
+    </div>
+    <div class="bottom">
+        <a href="#experience"><div class="svgLink withStroke" [inlineSVG]="'/icons/arrow-down.svg'"></div></a>
+        
+    </div>
+</section>

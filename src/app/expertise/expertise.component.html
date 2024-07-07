@@ -1,0 +1,28 @@
+<section id="expertise" class="mainSection">
+    <h2 class="title">Tecnologías</h2>
+    <ul>
+        @for (item of data; track item) {
+            <li class="item">
+                <div class="sectionHeader">
+                    <div class="iconCell">
+                        <img src="/icons/build.svg" width="20" [alt]="item.category"/>
+                    </div>
+                    <div class="titleCell header">
+                        <h3 class="title1">{{ item.category }}</h3>
+                    </div>
+                </div>
+                <div class="infoCell">
+                    <ul class="subitems">
+                        @for (subitem of item.items; track subitem) {
+                            <li class="subitem">
+                                <img [src]="subitem.img" [alt]="subitem.name" [width]="(subitem.imgWidth || 40)" />
+                                <span>{{ subitem.name }}</span>
+                            </li>
+                        }
+                    </ul>
+                    
+                </div>
+            </li>
+        }
+        </ul>
+    </section>

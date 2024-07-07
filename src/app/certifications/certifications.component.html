@@ -1,0 +1,22 @@
+<section id="certifications" class="mainSection">
+    <h2 class="title">Certificaciones</h2>
+    <ul>
+    @for (item of data; track item) {
+        <li class="item">
+            <div class="sectionHeader">
+                <div class="iconCell">
+                    <img src="/icons/cert.svg" width="20" [alt]="item.title"/>
+                </div>
+                <div class="titleCell header">
+                    <h3 class="title1">{{ item.title }}</h3>
+                </div>
+            </div>
+            <div class="infoCell">
+                <div>
+                    <span class="date">{{ item.date }}</span>
+                </div>
+            </div>
+        </li>
+    }
+    </ul>
+</section>
