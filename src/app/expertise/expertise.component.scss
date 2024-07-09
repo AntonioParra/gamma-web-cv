@@ -17,6 +17,11 @@
     font-size: 14px;
     width: 16.66%
 }
+
+.subitem img {
+        min-height: 40px;
+    }
+
 @media(width < 720px) {
     .subitem {
         margin-bottom: 12px;

@@ -25,6 +25,11 @@
             "href": "/cv/data/jjsb/CV - Saborido Barranco Juan José - Desarrollo Web.pdf"
         }, {
             "section": "end",
+            "text": "GitHub",
+            "img": "../assets/logos/github.svg",
+            "href": "https://github.com/Ahrkhael"
+        }, {
+            "section": "end",
             "text": "LinkedId",
             "img": "../assets/icons/linkedin.svg",
             "href": "https://www.linkedin.com/in/juan-jos%C3%A9-saborido-barranco-49556b195/"
