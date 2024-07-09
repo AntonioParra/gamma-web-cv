@@ -1,11 +1,11 @@
-<header>
+<header id="header">
     <nav class="container">
         <h1 class="title">
-            <a href="#">{{data?.title}}</a>
+            <a (click)="scrollTo('header')">{{data?.title}}</a>
         </h1>
         <ul class="middle links">
             @for (item of data?.links| filterBy:['section']:['middle'] ; track item){
-                <li class="link"><a [href]="item.href">{{ item.text }}</a></li>
+                <li class="link"><a (click)="scrollTo(item.href!)">{{ item.text }}</a></li>
             }
         </ul>
         <ul class="end links">

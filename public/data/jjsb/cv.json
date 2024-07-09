@@ -5,28 +5,28 @@
         "links": [{
             "section": "middle",
             "text": "Experiencia",
-            "href": "#experience"
+            "href": "experience"
         }, {
             "section": "middle",
             "text": "Tecnologías",
-            "href": "#expertise"
+            "href": "expertise"
         }, {
             "section": "middle",
             "text": "Formación",
-            "href": "#education"
+            "href": "education"
         }, {
             "section": "middle",
             "text": "Certificaciones",
-            "href": "#certifications"
+            "href": "certifications"
         }, {
             "section": "end",
             "text": "Tecnologías",
-            "img": "/icons/pdf.svg",
-            "href": "/pdfs/CV - Saborido Barranco Juan José - Desarrollo Web.pdf"
+            "img": "../assets/icons/pdf.svg",
+            "href": "/cv/data/jjsb/CV - Saborido Barranco Juan José - Desarrollo Web.pdf"
         }, {
             "section": "end",
             "text": "LinkedId",
-            "img": "/icons/linkedin.svg",
+            "img": "../assets/icons/linkedin.svg",
             "href": "https://www.linkedin.com/in/juan-jos%C3%A9-saborido-barranco-49556b195/"
         }]
     },
@@ -36,7 +36,8 @@
         "text1": "Programando desde 2021",
         "text2": "Persona muy curiosa y activa",
         "text3": "Con entusiasmo por la programación",
-        "text4": "Ansia de conocimiento"
+        "text4": "Ansia de conocimiento",
+        "pic": "pic.jpg"
     },
     "experience": [{
         "company": "Burst your ideas",
@@ -49,67 +50,64 @@
         "category": "Desarrollo Frontend",
         "items": [{
             "name": "HTML",
-            "img": "/imgs/html.svg"
+            "img": "/assets/logos/html.svg"
         }, {
             "name": "JavaScript",
-            "img": "/imgs/javascript.svg"
+            "img": "/assets/logos/javascript.svg"
         }, {
             "name": "CSS",
-            "img": "/imgs/css.svg"
+            "img": "/assets/logos/css.svg"
         }, {
             "name": "React",
-            "img": "/imgs/react.svg"
+            "img": "/assets/logos/react.svg"
         }]
     }, {
         "category": "Desarrollo Backend",
         "items": [{
             "name": "Ruby",
-            "img": "/imgs/ruby.svg"
+            "img": "/assets/logos/ruby.svg"
         }, {
             "name": "PHP",
-            "img": "/imgs/php.svg"
+            "img": "/assets/logos/php.svg"
         }, {
             "name": "MySQL",
-            "img": "/imgs/mysql.svg"
+            "img": "/assets/logos/mysql.svg"
         }, {
             "name": "PostgreSQL",
-            "img": "/imgs/postgresql.svg"
+            "img": "/assets/logos/postgresql.svg"
         }, {
             "name": "Apache",
-            "img": "/imgs/apache.svg"
+            "img": "/assets/logos/apache.svg"
         }, {
             "name": "Nginx",
-            "img": "/imgs/nginx.svg"
-        }, {
-            "name": "Puma",
-            "img": "/imgs/puma.svg"
+            "img": "/assets/logos/nginx.svg"
         }]
     }, {
         "category": "Otros lenguajes y Herramientas",
         "items": [{
             "name": "Java",
-            "img": "/imgs/java.svg"
+            "img": "/assets/logos/java.svg"
         }, {
             "name": "C#",
-            "img": "/imgs/csharp.svg"
+            "img": "/assets/logos/csharp.svg"
         }, {
             "name": "Python",
-            "img": "/imgs/python.svg"
+            "img": "/assets/logos/python.svg"
         }, {
             "name": "GIT",
-            "img": "/imgs/git.svg"
+            "img": "/assets/logos/git.svg"
         }, {
             "name": "Terminal",
-            "img": "/imgs/terminal.svg"
+            "img": "/assets/logos/terminal.svg"
         }]
     }, {
         "category": "Otros intereses",
         "items": [{
             "name": "OpenAI",
-            "img": "/imgs/openai.svg"
+            "img": "/assets/logos/openai.svg"
         }, {
             "name": "Linux",
-            "img": "/imgs/linux.svg"
+            "img": "/assets/logos/linux.svg"
         }]
     }],
     "certifications": [{

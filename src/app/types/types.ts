@@ -16,7 +16,7 @@ export type HeaderLinkType = {
     section: string,
     text?: string,
     img?: string
-    href: string,
+    href?: string
 }
 
 export type PersonalType = {

@@ -14,4 +14,8 @@ export class HeaderComponent {
 
   @Input() public data: HeaderType | undefined;
 
+  scrollTo(target: string) {
+    window.scrollTo({top: document.getElementById(target)?.offsetTop});
+  }
+
 }

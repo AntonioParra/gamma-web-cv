@@ -5,24 +5,24 @@
         "links": [{
             "section": "middle",
             "text": "Experiencia",
-            "href": "#experience"
+            "href": "experience"
         }, {
             "section": "middle",
             "text": "Tecnologías",
-            "href": "#expertise"
+            "href": "expertise"
         }, {
             "section": "middle",
             "text": "Formación",
-            "href": "#education"
+            "href": "education"
         }, {
             "section": "middle",
             "text": "Certificaciones",
-            "href": "#certifications"
+            "href": "certifications"
         }, {
             "section": "end",
             "text": "Tecnologías",
             "img": "../assets/icons/pdf.svg",
-            "href": "/pdfs/Antonio Parra Ruiz - CV.pdf"
+            "href": "/cv/data/apr/Antonio Parra Ruiz - CV.pdf"
         }, {
             "section": "end",
             "text": "LinkedId",
@@ -36,7 +36,8 @@
         "text1": "Programando desde 2008",
         "text2": "Especialista en desarrollos frontend",
         "text3": "Buscando la belleza en el código",
-        "text4": "Enseño programación a estudiantes de bachillerato"
+        "text4": "Enseño programación a estudiantes de bachillerato",
+        "pic": "pic.png"
     },
     "experience": [{
         "company": "Stratesys",
