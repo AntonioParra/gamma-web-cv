@@ -18,6 +18,7 @@ import { ActivatedRoute, NavigationEnd, Router } from '@angular/router';
 })
 export class CvComponent implements OnInit {
 
+  public path: string = '';
   public cvData: CvType | undefined;
 
   constructor(
@@ -31,8 +32,8 @@ export class CvComponent implements OnInit {
   ngOnInit(): void {
     
     this.route.url.subscribe(url => {
-      const path = url[0]?.path;
-      this.http.get(`/cv/data/${path}/cv.json`).subscribe((data: any) => {
+      this.path = url[0]?.path;
+      this.http.get(`/cv/data/${this.path}/cv.json`).subscribe((data: any) => {
         this.cvData = data;
         document.title = data.title;
       });

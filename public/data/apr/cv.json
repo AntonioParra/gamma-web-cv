@@ -21,12 +21,12 @@
         }, {
             "section": "end",
             "text": "Tecnologías",
-            "img": "/assets/icons/pdf.svg",
+            "img": "../assets/icons/pdf.svg",
             "href": "/pdfs/Antonio Parra Ruiz - CV.pdf"
         }, {
             "section": "end",
             "text": "LinkedId",
-            "img": "/assets/icons/linkedin.svg",
+            "img": "../assets/icons/linkedin.svg",
             "href": "https://www.linkedin.com/in/antonio-parra-ruiz/"
         }]
     },
@@ -36,8 +36,7 @@
         "text1": "Programando desde 2008",
         "text2": "Especialista en desarrollos frontend",
         "text3": "Buscando la belleza en el código",
-        "text4": "Enseño programación a estudiantes de bachillerato",
-        "pic": "pic.png"
+        "text4": "Enseño programación a estudiantes de bachillerato"
     },
     "experience": [{
         "company": "Stratesys",

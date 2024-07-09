@@ -12,5 +12,6 @@ import { InlineSVGModule } from 'ng-inline-svg-2';
 export class PersonalComponent {
 
   @Input() public data: PersonalType | undefined;
+  @Input() public path: string | undefined;
 
 }
