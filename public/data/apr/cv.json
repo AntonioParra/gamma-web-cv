@@ -21,12 +21,12 @@
         }, {
             "section": "end",
             "text": "Tecnologías",
-            "img": "/icons/pdf.svg",
+            "img": "/assets/icons/pdf.svg",
             "href": "/pdfs/Antonio Parra Ruiz - CV.pdf"
         }, {
             "section": "end",
             "text": "LinkedId",
-            "img": "/icons/linkedin.svg",
+            "img": "/assets/icons/linkedin.svg",
             "href": "https://www.linkedin.com/in/antonio-parra-ruiz/"
         }]
     },
@@ -42,138 +42,138 @@
     "experience": [{
         "company": "Stratesys",
         "position": "Project Team Leader",
-        "since": "Enero 2023",
         "until": "actualidad",
+        "since": "Enero 2023",
         "description": "Gestión de proyectos con Grupo QuirónSalud y TMB. Desarrollos y mantenimientos principalmente SAPUI5, ABAP OData, Angular e Ionic para multitud de clientes, señalando especialmente a Elecnor (SFSF), Bardahl (SAP MM) y GAM (SAP PM). Formación de perfiles junior."
     }, {
         "company": "Stratesys",
         "position": "Senior Web Developer",
-        "since": "Mayo 2019",
         "until": "Enero 2023",
+        "since": "Mayo 2019",
         "description": "Desarrollos y mantenimientos principalmente SAPUI5, ABAP OData, Angular e Ionic para multitud de clientes, señalando especialmente Grupo QuirónSalud (SAP HCM + SFSF), GAM (SAP PM), Acciona (SAP FI), Telefónica (SAP FI), Grupo Colonial (SAP SD), Vithas (SAP MM). Formación de perfiles junior."
     }, {
         "company": "ViewNext",
         "position": "Web Developer",
-        "since": "Mayo 2019",
-        "until": "January 2017",
+        "until": "Mayo 2019",
+        "since": "January 2017",
         "description": "Desarrollos y mantenimientos SAPUI5 y ABAP OData para crear herramientas corporativas para Ferrovial Cintra (SAP HCM), Ferrovial Agroman (SAP FI, SD, MM) y Ferrovial Servicios (SAP PM). Formación de perfiles junior."
     }, {
         "company": "Tecnocom",
         "position": "Junior Web Developer",
-        "since": "July 2015",
         "until": "January 2017",
+        "since": "July 2015",
         "description": "Primeros pasos en el mundo  SAP. Principalmente desarrollos con SAPUI5 para crear herramientas corporativas para Heineken (SAP SD) y Persán (SAP HCM y SAP PP)."
     }],
     "expertise": [{
         "category": "Mundo SAP",
         "items": [{
             "name": "SAPUI5",
-            "img": "/imgs/sapui5.png",
+            "img": "/assets/logos/sapui5.png",
             "imgWidth": "62"
         }, {
             "name": "SAP BTP",
-            "img": "/imgs/btp.png",
+            "img": "/assets/logos/btp.png",
             "imgWidth": "62"
         }, {
             "name": "ABAP",
-            "img": "/imgs/abap.png",
+            "img": "/assets/logos/abap.png",
             "imgWidth": "62"
         }, {
             "name": "OData ABAP",
-            "img": "/imgs/odata.png",
+            "img": "/assets/logos/odata.png",
             "imgWidth": "62"
         }, {
             "name": "SuccessFactors",
-            "img": "/imgs/sfsf.png",
+            "img": "/assets/logos/sfsf.png",
             "imgWidth": "62"
         }, {
             "name": "CAP",
-            "img": "/imgs/cap.png",
+            "img": "/assets/logos/cap.png",
             "imgWidth": "62"
         }]
     }, {
         "category": "Desarrollo Frontend",
         "items": [{
             "name": "HTML",
-            "img": "/imgs/html.svg"
+            "img": "/assets/logos/html.svg"
         }, {
             "name": "JavaScript",
-            "img": "/imgs/javascript.svg"
+            "img": "/assets/logos/javascript.svg"
         }, {
             "name": "CSS",
-            "img": "/imgs/css.svg"
+            "img": "/assets/logos/css.svg"
         }, {
             "name": "SASS",
-            "img": "/imgs/sass.svg"
+            "img": "/assets/logos/sass.svg"
         }, {
             "name": "Angular",
-            "img": "/imgs/angular.svg"
+            "img": "/assets/logos/angular.svg"
         }, {
             "name": "Ionic",
-            "img": "/imgs/ionic.svg"
+            "img": "/assets/logos/ionic.svg"
         }]
     }, {
         "category": "Desarrollo Backend",
         "items": [{
             "name": "NodeJS",
-            "img": "/imgs/nodejs.svg"
+            "img": "/assets/logos/nodejs.svg"
         }, {
             "name": "ExpressJS",
-            "img": "/imgs/express.svg"
+            "img": "/assets/logos/express.svg"
         }, {
             "name": "MySQL",
-            "img": "/imgs/mysql.svg"
+            "img": "/assets/logos/mysql.svg"
         }, {
             "name": "SQLite",
-            "img": "/imgs/sqlite.svg"
+            "img": "/assets/logos/sqlite.svg"
         }, {
             "name": "Apache",
-            "img": "/imgs/apache.svg"
+            "img": "/assets/logos/apache.svg"
         }, {
             "name": "Nginx",
-            "img": "/imgs/nginx.svg"
+            "img": "/assets/logos/nginx.svg"
         }]
     }, {
         "category": "Otros lenguajes y Herramientas",
         "items": [{
             "name": "Java",
-            "img": "/imgs/java.svg"
+            "img": "/assets/logos/java.svg"
         }, {
             "name": "TypeScript",
-            "img": "/imgs/typescript.svg"
+            "img": "/assets/logos/typescript.svg"
         }, {
             "name": "GIT",
-            "img": "/imgs/git.svg"
+            "img": "/assets/logos/git.svg"
         }, {
             "name": "Terminal",
-            "img": "/imgs/terminal.svg"
+            "img": "/assets/logos/terminal.svg"
         }, {
             "name": "Android",
-            "img": "/imgs/android.svg"
+            "img": "/assets/logos/android.svg"
         }, {
             "name": "Docker",
-            "img": "/imgs/docker.svg"
+            "img": "/assets/logos/docker.svg"
         }]
     }, {
         "category": "Otros intereses",
         "items": [{
             "name": "Python",
-            "img": "/imgs/python.svg"
+            "img": "/assets/logos/python.svg"
         }, {
             "name": "Astro",
-            "img": "/imgs/astro.svg"
+            "img": "/assets/logos/astro.svg"
         }, {
             "name": "React",
-            "img": "/imgs/react.svg"
+            "img": "/assets/logos/react.svg"
         }, {
             "name": "Godot",
-            "img": "/imgs/godot.svg"
+            "img": "/assets/logos/godot.svg"
         }, {
             "name": "OpenAI",
-            "img": "/imgs/openai.svg"
+            "img": "/assets/logos/openai.svg"
         }, {
             "name": "Linux",
-            "img": "/imgs/linux.svg"
+            "img": "/assets/logos/linux.svg"
         }]
     }],
     "certifications": [{
