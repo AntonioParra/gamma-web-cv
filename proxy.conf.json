@@ -2,9 +2,7 @@
     "/assets/": {
       "target": "http://l.gjahr.com:20000",
       "secure": false,
-      "logLevel": "verbose",
       "pathRewrite": {
-        "^/assets": "/assets"
       }
     }
   }
