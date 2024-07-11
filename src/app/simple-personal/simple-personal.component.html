@@ -1,0 +1,13 @@
+<div class="card" (click)="navTo()">
+    <div class="container">
+        <div class="imgContainer">
+            <img class="pic" [src]="'/cv/data/' + path  + '/' + data?.pic" [alt]="data?.fullname" width="200" height="200"/>
+        </div>
+        <div class="textsContainer">
+            <div class="textsInnerContainer">
+                <span class="fullname">{{ data?.fullname }}</span>
+                <span class="position">{{ data?.position }}</span>
+            </div>
+        </div>
+    </div>
+</div>

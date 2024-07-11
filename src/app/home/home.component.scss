@@ -1,0 +1,15 @@
+.container {
+    min-height: calc(100dvh - 64px * 2 - 1px);
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+
+    padding: 64px;
+}
+
+app-simple-personal {
+    margin: 24px;
+}

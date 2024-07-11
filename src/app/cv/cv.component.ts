@@ -1,6 +1,5 @@
 import { Component, OnInit } from '@angular/core';
 import { HeaderComponent } from '../header/header.component';
-import { HttpClient } from '@angular/common/http';
 import { CvType } from '../types/types';
 import { PersonalComponent } from '../personal/personal.component';
 import { ExperienceComponent } from '../experience/experience.component';
@@ -8,6 +7,7 @@ import { ExpertiseComponent } from '../expertise/expertise.component';
 import { EducationComponent } from '../education/education.component';
 import { CertificationsComponent } from '../certifications/certifications.component';
 import { ActivatedRoute, NavigationEnd, Router } from '@angular/router';
+import { CvService } from '../services/cv.service';
 
 @Component({
   selector: 'app-cv',
@@ -22,7 +22,7 @@ export class CvComponent implements OnInit {
   public cvData: CvType | undefined;
 
   constructor(
-    private http: HttpClient,
+    private cvService: CvService,
     private router: Router,
     private route: ActivatedRoute
   ) {
@@ -33,7 +33,7 @@ export class CvComponent implements OnInit {
     
     this.route.url.subscribe(url => {
       this.path = url[0]?.path;
-      this.http.get(`/cv/data/${this.path}/cv.json`).subscribe((data: any) => {
+      this.cvService.getCV(this.path).subscribe((data: any) => {
         this.cvData = data;
         document.title = data.title;
       });

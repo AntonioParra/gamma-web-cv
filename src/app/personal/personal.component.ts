@@ -14,4 +14,8 @@ export class PersonalComponent {
   @Input() public data: PersonalType | undefined;
   @Input() public path: string | undefined;
 
+  scrollTo(target: string) {
+    window.scrollTo({top: document.getElementById(target)?.offsetTop});
+  }
+
 }

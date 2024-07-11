@@ -1,0 +1,80 @@
+* {
+    --cardWidth: 300px;
+    --cardHeight: 350px;
+    --imgSize: 180px;
+    --space: 16px;
+}
+
+.card {
+    width: var(--cardWidth);
+    height: var(--cardHeight);
+
+    cursor: pointer;
+}
+
+.container {
+
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    .imgContainer {
+        position: relative;
+
+        .pic {
+            position: absolute;
+            left: calc(50% - var(--imgSize) / 2);
+            top: var(--space);
+            height: var(--imgSize);
+            width: var(--imgSize);
+        
+            border-radius: 100%;
+        }
+
+    }
+
+    .textsContainer {
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+
+        .textsInnerContainer {
+            height: calc(var(--cardHeight) - var(--imgSize));
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+
+            .fullname {
+                font-size: larger;
+                font-family: 'Title';
+                text-align: center;
+                color: var(--primary);
+            }
+            .position{
+                font-size: large;
+                font-family: 'Header';
+                text-align: center;
+                color: var(--secondary);
+            }
+        }
+
+        transition: 0.3s;
+        height: calc(100% - var(--imgSize) / 2 - var(--space));
+        border: 1.5px solid var(--secondary);
+        border-radius: 16px;
+        background-color: rgba(255,255,255,0.05);
+    }
+}
+:hover .textsContainer {
+    transition: 0.1s;
+    height: 100%;
+    border: 1px solid var(--primary);
+    border-radius: 20px;
+    background-color: rgba(255,255,255,0.1);
+}
+
+
+
+

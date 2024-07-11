@@ -1,0 +1,6 @@
+<div class="container">
+    @for (cv of cvs; track $index) {
+        <app-simple-personal [data]="cv?.cv?.personal" [path]="cv?.path"></app-simple-personal>
+    }
+</div>
+<div class="spacer"></div>
