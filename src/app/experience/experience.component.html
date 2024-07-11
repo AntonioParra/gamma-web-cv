@@ -15,7 +15,13 @@
                 <div>
                     <span class="date">{{ item?.since }}</span><span class="spacer">-</span><span class="date">{{ item?.until }}</span>
                 </div>
-                <div>{{ item.description }}</div>
+                <!-- <div>{{ item.description }}</div> -->
+
+                <div>
+                    @for (line of item.description.split('\n'); track line) {
+                        <p>{{ line }}</p>
+                    }
+                </div>
             </div>
         </li>
     }
