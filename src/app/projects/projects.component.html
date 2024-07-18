@@ -1,0 +1,46 @@
+<section id="education" class="mainSection">
+    <h2 class="title">Proyectos</h2>
+    <ul>
+    @for (item of data; track item) {
+        <li class="item">
+            <div class="sectionHeader">
+                <div class="iconCell">
+                    <img src="/assets/icons/projects.svg" width="20" [alt]="item.title"/>
+                </div>
+                <div class="titleCell header">
+                    <h3 class="title1">{{ item.title }}</h3>
+                </div>
+            </div>
+            <div class="infoCell">
+                <div class="picContainer">
+                    <a [href]="item.picLink" target="_blank">
+                        <img [src]="'/cv/data/' + path  + '/' + item.pic" />
+                    </a>
+                </div>
+                <div class="textContainer">
+                    <div class="description">
+                        <p class="subtitle">{{ item.subtitle }}</p>
+                        @for (line of item.description.split('\n'); track line) {
+                            <p>{{ line }}</p>
+                        }
+                    </div>
+                    <div class="footer">
+                        <div class="tecnology">
+                            <span>Tecnologías:</span>
+                            @for (tech of item.technology; track tech) {
+                                <span>{{ tech }}</span>
+                            }
+                        </div>
+                        <div class="links">
+                            <span>Links:</span>
+                            @for (link of item.links; track link) {
+                                <a [href]="link.href" target="_blank">{{ link.title }}</a>
+                            }
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </li>
+    }
+    </ul>
+</section>

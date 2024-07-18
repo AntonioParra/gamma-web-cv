@@ -4,10 +4,21 @@
 <div class="cvContainer">
     <main>
         <app-personal [data]="cvData?.personal" [path]="path"></app-personal>
-        <app-experience [data]="cvData?.experience"></app-experience>
-        <app-expertise [data]="cvData?.expertise"></app-expertise>
-        <app-education [data]="cvData?.education"></app-education>
-        <app-certifications [data]="cvData?.certifications"></app-certifications>
+        @if (cvData?.experience) {
+            <app-experience [data]="cvData?.experience"></app-experience>
+        }
+        @if (cvData?.expertise) {
+            <app-expertise [data]="cvData?.expertise"></app-expertise>
+        }
+        @if (cvData?.education) {
+            <app-education [data]="cvData?.education"></app-education>
+        }
+        @if (cvData?.certifications) {
+            <app-certifications [data]="cvData?.certifications"></app-certifications>
+        }
+        @if (cvData?.projects) {
+            <app-projects [data]="cvData?.projects" [path]="path"></app-projects>
+        }
         <div class="bottomSpacer"></div>
     </main>
 </div>

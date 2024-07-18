@@ -1,10 +1,11 @@
 export type CvType = {
     header: HeaderType,
     personal: PersonalType,
-    experience: ExperienceType[],
-    expertise: ExpertiseType[],
-    certifications: CertificationType[],
-    education: EducationType[]
+    experience?: ExperienceType[],
+    expertise?: ExpertiseType[],
+    certifications?: CertificationType[],
+    education?: EducationType[],
+    projects?: ProjectsType[]
 }
 
 export type HeaderType = {
@@ -59,4 +60,17 @@ export type EducationType = {
     since: string,
     until: string,
     grade: string
+}
+
+export type ProjectsType = {
+    title: string,
+    subtitle: string,
+    pic: string,
+    picLink: string;
+    description: string,
+    technology: string[],
+    links: {
+        title: string,
+        href: string
+    }[]
 }

@@ -8,11 +8,12 @@ import { EducationComponent } from '../education/education.component';
 import { CertificationsComponent } from '../certifications/certifications.component';
 import { ActivatedRoute, NavigationEnd, Router } from '@angular/router';
 import { CvService } from '../services/cv.service';
+import { ProjectsComponent } from "../projects/projects.component";
 
 @Component({
   selector: 'app-cv',
   standalone: true,
-  imports: [HeaderComponent, PersonalComponent, ExperienceComponent, ExpertiseComponent, EducationComponent, CertificationsComponent],
+  imports: [HeaderComponent, PersonalComponent, ExperienceComponent, ExpertiseComponent, EducationComponent, CertificationsComponent, ProjectsComponent],
   templateUrl: './cv.component.html',
   styleUrl: './cv.component.scss'
 })

@@ -189,5 +189,20 @@
         "since": "Septiembre 2013",
         "until": "Junio 2015",
         "grade": "Matrícula de Honor (9.15/10)"
+    }],
+    "projects": [{
+        "title": "Clonetile",
+        "subtitle": "Un pequeño juego hecho en Godot",
+        "pic": "assets/clonetile.png",
+        "picLink": "https://www.gjahr.com/g/clonetile/",
+        "description": "Selecciona un nivel y activa los trofeos con las pelotas mientras esquivas enemigos.\nPuedes poner y quitar paredes de ladrillo con el ratón.",
+        "technology": ["Godot"],
+        "links": [{
+            "title": "GitHub",
+            "href": "https://github.com/AntonioParra/clonetile"
+        }, {
+            "title": "¡Jugar ahora!",
+            "href": "https://www.gjahr.com/g/clonetile/"
+        }]
     }]
 }
