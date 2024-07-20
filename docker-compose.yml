@@ -1,8 +1,8 @@
-name: cv
+name: gamma-cv
 
 services:
   web:
-    container_name: web-cv
+    container_name: gamma-web-cv
     build:
       dockerfile: Dockerfile
     networks:
