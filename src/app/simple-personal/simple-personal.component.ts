@@ -13,11 +13,27 @@ export class SimplePersonalComponent {
   @Input() public data: PersonalType | undefined;
   @Input() public path: string | undefined;
 
+  easterEggTimeout: any;
+
   constructor(
     private router: Router
   ) {}
 
   navTo() {
     this.router.navigateByUrl(this.path!);
+  }
+
+  mouseEnter() {
+    this.easterEggTimeout = setTimeout(this.doEasterEgg.bind(this), 10*1000);
+  }
+
+  mouseLeave() {
+    clearTimeout(this.easterEggTimeout);
+  }
+
+  doEasterEgg() {
+    if(this.path === 'jjg') {
+      new Audio('/cv/cuack.mp3').play();
+    }
   }
 }

@@ -13,7 +13,7 @@ import { SimplePersonalComponent } from '../simple-personal/simple-personal.comp
 })
 export class HomeComponent implements OnInit {
 
-  private people: string[] = ['apr', 'jjsb', 'jjg'];
+  private people: string[] = ['apr', 'jjg', 'jjsb'];
   public cvs: {path: string, cv: CvType}[] | undefined;
 
   constructor(

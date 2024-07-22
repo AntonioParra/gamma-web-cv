@@ -1,4 +1,4 @@
-<div class="card" (click)="navTo()">
+<div class="card" (click)="navTo()" (mouseenter)="mouseEnter()" (mouseleave)="mouseLeave()">
     <div class="container">
         <div class="imgContainer">
             <img class="pic" [src]="'/cv/data/' + path  + '/' + data?.pic" [alt]="data?.fullname" width="200" height="200"/>
