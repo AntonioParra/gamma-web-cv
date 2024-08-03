@@ -19,6 +19,10 @@
             "text": "Certificaciones",
             "href": "certifications"
         }, {
+            "section": "middle",
+            "text": "Proyectos",
+            "href": "projects"
+        }, {
             "section": "end",
             "text": "Tecnologías",
             "img": "../assets/icons/pdf.svg",
@@ -128,5 +132,20 @@
         "since": "Septiembre 2022",
         "until": "Junio 2024",
         "grade": "Nota media del FP 9 sobre 10"
+    }],
+    "projects": [{
+        "title": "Chess",
+        "subtitle": "El clásico juego programado en JavaScript, HTML y CSS",
+        "pic": "assets/chess.png",
+        "picLink": "https://l.gjahr.com/e/chess",
+        "description": "Juega con un amigo o estudia partidas con este ajedrez interactivo.\nDisfruta de este maravilloso juego llamado Ajedrez hasta dar jaque mate a tu oponente.",
+        "technology": ["JavaScript", "HTML", "CSS"],
+        "links": [{
+            "title": "GitHub",
+            "href": "https://github.com/Ahrkhael/Chess"
+        }, {
+            "title": "¡Jugar ahora!",
+            "href": "https://l.gjahr.com/e/chess"
+        }]
     }]
 }
