@@ -1,151 +1,224 @@
 {
-    "title": "Juan José Saborido Barranco",
-    "header": {
-        "title": "JJSB",
-        "links": [{
-            "section": "middle",
-            "text": "Experiencia",
-            "href": "experience"
-        }, {
-            "section": "middle",
-            "text": "Tecnologías",
-            "href": "expertise"
-        }, {
-            "section": "middle",
-            "text": "Formación",
-            "href": "education"
-        }, {
-            "section": "middle",
-            "text": "Certificaciones",
-            "href": "certifications"
-        }, {
-            "section": "middle",
-            "text": "Proyectos",
-            "href": "projects"
-        }, {
-            "section": "end",
-            "text": "Tecnologías",
-            "img": "../assets/icons/pdf.svg",
-            "href": "/cv/data/jjsb/CV - Desarrollador Web - Saborido Barranco - Juan José.pdf"
-        }, {
-            "section": "end",
-            "text": "GitHub",
-            "img": "../assets/logos/github.svg",
-            "href": "https://github.com/Ahrkhael"
-        }, {
-            "section": "end",
-            "text": "LinkedId",
-            "img": "../assets/icons/linkedin.svg",
-            "href": "https://www.linkedin.com/in/juan-jos%C3%A9-saborido-barranco-49556b195/"
-        }]
+  "title": "Juan José Saborido Barranco",
+  "header": {
+    "title": "JJSB",
+    "links": [
+      {
+        "section": "middle",
+        "text": "Experiencia",
+        "href": "experience"
+      },
+      {
+        "section": "middle",
+        "text": "Tecnologías",
+        "href": "expertise"
+      },
+      {
+        "section": "middle",
+        "text": "Formación",
+        "href": "education"
+      },
+      {
+        "section": "middle",
+        "text": "Certificaciones",
+        "href": "certifications"
+      },
+      {
+        "section": "middle",
+        "text": "Proyectos",
+        "href": "projects"
+      },
+      {
+        "section": "end",
+        "text": "Tecnologías",
+        "img": "../assets/icons/pdf.svg",
+        "href": "/cv/data/jjsb/CV - Desarrollador Web - Saborido Barranco - Juan José.pdf"
+      },
+      {
+        "section": "end",
+        "text": "GitHub",
+        "img": "../assets/logos/github.svg",
+        "href": "https://github.com/Ahrkhael"
+      },
+      {
+        "section": "end",
+        "text": "LinkedId",
+        "img": "../assets/icons/linkedin.svg",
+        "href": "https://www.linkedin.com/in/juan-jos%C3%A9-saborido-barranco-49556b195/"
+      }
+    ]
+  },
+  "personal": {
+    "fullname": "Juan José Saborido Barranco",
+    "position": "Desarrollador junior full stack",
+    "text1": "Programando desde 2021",
+    "text2": "Persona muy curiosa y activa",
+    "text3": "Con entusiasmo por la programación",
+    "text4": "Ansia de conocimiento",
+    "pic": "pic.png"
+  },
+  "experience": [
+    {
+      "company": "Burst your ideas",
+      "position": "Desarrollador full stack",
+      "since": "Marzo 2024",
+      "until": "actualidad",
+      "description": "Creación de varias landings creadas con React. Sistema de enroutado, páginas webs en diferentes idiomas usando librerías de traducción y creación de diferentes componentes dinámicos. \n Implementación del recaptcha v3 de Google en el proyecto para proteger datos sensibles de la empresa. \n Configuración y gestión de servidor remoto con Nginx+Puma a través de la terminal de Linux. \n Gestión del backend en Ruby on Rails creando gemas y realizando peticiones a la base de datos en PostgreSQL. \n Comunicación entre frontend y backend."
+    }
+  ],
+  "expertise": [
+    {
+      "category": "Desarrollo Frontend",
+      "items": [
+        {
+          "name": "HTML",
+          "img": "/assets/logos/html.svg"
+        },
+        {
+          "name": "JavaScript",
+          "img": "/assets/logos/javascript.svg"
+        },
+        {
+          "name": "CSS",
+          "img": "/assets/logos/css.svg"
+        },
+        {
+          "name": "React",
+          "img": "/assets/logos/react.svg"
+        },
+        {
+          "name": "Bootstrap",
+          "img": "/assets/logos/bootstrap.png"
+        }
+      ]
     },
-    "personal": {
-        "fullname": "Juan José Saborido Barranco",
-        "position": "Desarrollador junior full stack",
-        "text1": "Programando desde 2021",
-        "text2": "Persona muy curiosa y activa",
-        "text3": "Con entusiasmo por la programación",
-        "text4": "Ansia de conocimiento",
-        "pic": "pic.png"
+    {
+      "category": "Desarrollo Backend",
+      "items": [
+        {
+          "name": "NextJS",
+          "img": "/assets/logos/next.svg"
+        },
+        {
+          "name": "PHP",
+          "img": "/assets/logos/php.svg"
+        },
+        {
+          "name": "Ruby",
+          "img": "/assets/logos/ruby.svg"
+        },
+        {
+          "name": "MySQL",
+          "img": "/assets/logos/mysql.svg"
+        },
+        {
+          "name": "PostgreSQL",
+          "img": "/assets/logos/postgresql.svg"
+        }
+      ]
     },
-    "experience": [{
-        "company": "Burst your ideas",
-        "position": "Desarrollador full stack",
-        "since": "Marzo 2024",
-        "until": "actualidad",
-        "description": "Creación de varias landings creadas con React. Sistema de enroutado, páginas webs en diferentes idiomas usando librerías de traducción y creación de diferentes componentes dinámicos. \n Implementación del recaptcha v3 de Google en el proyecto para proteger datos sensibles de la empresa. \n Configuración y gestión de servidor remoto con Nginx+Puma a través de la terminal de Linux. \n Gestión del backend en Ruby on Rails creando gemas y realizando peticiones a la base de datos en PostgreSQL. \n Comunicación entre frontend y backend."
-    }],
-    "expertise": [{
-        "category": "Desarrollo Frontend",
-        "items": [{
-            "name": "HTML",
-            "img": "/assets/logos/html.svg"
-        }, {
-            "name": "JavaScript",
-            "img": "/assets/logos/javascript.svg"
-        }, {
-            "name": "CSS",
-            "img": "/assets/logos/css.svg"
-        }, {
-            "name": "React",
-            "img": "/assets/logos/react.svg"
-        }, {
-            "name": "Bootstrap",
-            "img": "/assets/logos/bootstrap.png"
-        }]
-    }, {
-        "category": "Desarrollo Backend",
-        "items": [{
-            "name": "Ruby",
-            "img": "/assets/logos/ruby.svg"
-        }, {
-            "name": "PHP",
-            "img": "/assets/logos/php.svg"
-        }, {
-            "name": "MySQL",
-            "img": "/assets/logos/mysql.svg"
-        }, {
-            "name": "PostgreSQL",
-            "img": "/assets/logos/postgresql.svg"
-        }, {
-            "name": "Apache",
-            "img": "/assets/logos/apache.svg"
-        }, {
-            "name": "Nginx",
-            "img": "/assets/logos/nginx.svg"
-        }]
-    }, {
-        "category": "Otros lenguajes y Herramientas",
-        "items": [{
-            "name": "Java",
-            "img": "/assets/logos/java.svg"
-        }, {
-            "name": "C#",
-            "img": "/assets/logos/csharp.svg"
-        }, {
-            "name": "Python",
-            "img": "/assets/logos/python.svg"
-        }, {
-            "name": "GIT",
-            "img": "/assets/logos/git.svg"
-        }, {
-            "name": "Terminal",
-            "img": "/assets/logos/terminal.svg"
-        }]
-    }, {
-        "category": "Otros intereses",
-        "items": [{
-            "name": "OpenAI",
-            "img": "/assets/logos/openai.svg"
-        }, {
-            "name": "Linux",
-            "img": "/assets/logos/linux.svg"
-        }]
-    }],
-    "certifications": [{
-        "title": "First Certificate in English (Cambridge Level B2)",
-        "date": "Julio 2019"
-    }],
-    "education": [{
-        "title": "Técnico Superior en Desarrollo de Aplicaciones Web",
-        "school": "Ilerna",
-        "since": "Septiembre 2022",
-        "until": "Junio 2024",
-        "grade": "Nota media del FP 9 sobre 10"
-    }],
-    "projects": [{
-        "title": "Chess",
-        "subtitle": "El clásico juego programado en JavaScript, HTML y CSS",
-        "pic": "assets/chess.png",
-        "picLink": "https://l.gjahr.com/e/chess",
-        "description": "Juega con un amigo o estudia partidas con este ajedrez interactivo.\nDisfruta de este maravilloso juego llamado Ajedrez hasta dar jaque mate a tu oponente.",
-        "technology": ["JavaScript", "HTML", "CSS"],
-        "links": [{
-            "title": "GitHub",
-            "href": "https://github.com/Ahrkhael/Chess"
-        }, {
-            "title": "¡Jugar ahora!",
-            "href": "https://l.gjahr.com/e/chess"
-        }]
-    }]
+    {
+      "category": "Otros lenguajes y Herramientas",
+      "items": [
+        {
+          "name": "Java",
+          "img": "/assets/logos/java.svg"
+        },
+        {
+          "name": "C#",
+          "img": "/assets/logos/csharp.svg"
+        },
+        {
+          "name": "Python",
+          "img": "/assets/logos/python.svg"
+        },
+        {
+          "name": "GIT",
+          "img": "/assets/logos/git.svg"
+        },
+        {
+          "name": "Terminal",
+          "img": "/assets/logos/terminal.svg"
+        }
+      ]
+    },
+    {
+      "category": "Otros intereses",
+      "items": [
+        {
+          "name": "API",
+          "img": "/assets/logos/api.png"
+        },
+        {
+          "name": "Linux",
+          "img": "/assets/logos/linux.svg"
+        },
+        {
+          "name": "Apache",
+          "img": "/assets/logos/apache.svg"
+        },
+        {
+          "name": "Nginx",
+          "img": "/assets/logos/nginx.svg"
+        },
+        {
+          "name": "OpenAI",
+          "img": "/assets/logos/openai.svg"
+        }
+      ]
+    }
+  ],
+  "certifications": [
+    {
+      "title": "First Certificate in English (Cambridge Level B2)",
+      "date": "Julio 2019"
+    }
+  ],
+  "education": [
+    {
+      "title": "Técnico Superior en Desarrollo de Aplicaciones Web",
+      "school": "Ilerna",
+      "since": "Septiembre 2022",
+      "until": "Junio 2024",
+      "grade": "Nota media del FP 9 sobre 10"
+    }
+  ],
+  "projects": [
+    {
+      "title": "Chess",
+      "subtitle": "El clásico juego programado en JavaScript, HTML y CSS",
+      "pic": "assets/chess.png",
+      "picLink": "https://l.gjahr.com/e/chess",
+      "description": "Juega con un amigo o estudia partidas con este ajedrez interactivo.\nDisfruta de este maravilloso juego llamado Ajedrez hasta dar jaque mate a tu oponente.",
+      "technology": ["JavaScript", "HTML", "CSS"],
+      "links": [
+        {
+          "title": "GitHub",
+          "href": "https://github.com/Ahrkhael/Chess"
+        },
+        {
+          "title": "¡Jugar ahora!",
+          "href": "https://l.gjahr.com/e/chess"
+        }
+      ]
+    },
+    {
+      "title": "Traveling-app",
+      "subtitle": "Web de viajes creada en NextJS con React, Node, HTML y CSS",
+      "pic": "assets/traveling-app.png",
+      "picLink": "https://traveling-app-steel.vercel.app",
+      "description": "Visita esta web de viajes con información de diferentes ciudades tanto en castellano, como en inglés, con diseño 100% responsive y una excelente puntuación según la extensión de Google de Lighthouse (tanto en escritorio como en móvil)",
+      "technology": ["NextJS", "React", "Node", "HTML", "CSS", "Docker"],
+      "links": [
+        {
+          "title": "GitHub",
+          "href": "https://github.com/Ahrkhael/traveling_app"
+        },
+        {
+          "title": "Demostración",
+          "href": "https://traveling-app-steel.vercel.app"
+        }
+      ]
+    }
+  ]
 }
